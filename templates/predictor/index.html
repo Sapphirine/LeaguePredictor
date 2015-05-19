@@ -1,0 +1,6 @@
+<form action="/" method="post">
+	{% csrf_token %}
+	{{ form.as_p }}
+	<input type="submit" name="predict" value="Win Prediction" />
+	<input type="submit" name="next" value="Get Best Champ" />
+</form>

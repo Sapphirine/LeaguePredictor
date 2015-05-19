@@ -1,0 +1,30 @@
+Logistic Regression with LBGFS 1
+--------------------------
+training evaluation
+correct: 21580, total: 38202, acc: 0.564891890477
+margin sum: 495.773989918, margin sum / size: 0.0129776972388
+max positive margin: 0.288833909081, max negative margin: -0.28823073017
+avg margin: 0.0634206582284, avg pos margin: 0.0676221032336, avg neg margin: -0.0579660087752
+
+testing evaluation
+correct: 3694, total: 6674, acc: 0.553491159724
+margin sum: 69.7265587135, margin sum / size: 0.0104474915663
+max positive margin: 0.272262884357, max negative margin: -0.272336411338
+avg margin: 0.0644077328207, avg pos margin: 0.0676209755764, avg neg margin: -0.0604246057268
+--------------------------
+
+Logistic Regression with LBGFS 2
+--------------------------
+training evaluation
+correct: 18994, total: 32649, acc: 0.581763606849
+margin sum: 685.619378294, margin sum / size: 0.0209997052986
+max positive margin: 0.489886698215, max negative margin: -0.383356041482
+avg margin: 0.077843004416, avg pos margin: 0.0849509221194, avg neg margin: -0.0679559455468
+
+testing evaluation
+correct: 3229, total: 5709, acc: 0.565598178315
+margin sum: 75.1348588968, margin sum / size: 0.0131607740229
+max positive margin: 0.475168200188, max negative margin: -0.486577961244
+avg margin: 0.0795646104447, avg pos margin: 0.0819710777216, avg neg margin: -0.0764313512363
+--------------------------
+

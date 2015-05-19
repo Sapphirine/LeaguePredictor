@@ -1,0 +1,8 @@
+[django]
+SECRET_KEY: # INSERT KEY HERE
+
+[riot_games]
+API_KEY: # INSERT KEY HERE
+
+[spark]
+SPARK_HOME: # INSERT PATH TO SPARK

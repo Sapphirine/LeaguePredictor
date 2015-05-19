@@ -1,0 +1,165 @@
+ACWR - baseline
+--------------------------
+training evaluation
+correct: 20405, total: 38202, acc: 0.534134339
+margin sum: 109.077107727, margin sum / size: 0.00285527217756
+max positive margin: 0.0662725825288, max negative margin: -0.0686609903102
+avg margin: 0.0140925648247, avg pos margin: 0.0149835979903, avg neg margin: -0.0129326701725
+
+testing evaluation
+correct: 3578, total: 6674, acc: 0.536110279
+margin sum: 15.6260279281, margin sum / size: 0.00234132872761
+max positive margin: 0.0685507109141, max negative margin: -0.0653259215359
+avg margin: 0.0143097299083, avg pos margin: 0.0149850546569, avg neg margin: -0.0134654601281
+--------------------------
+
+Logistic Regression with SGD 1
+--------------------------
+training evaluation
+correct: 21258, total: 38202, acc: 0.556463012408
+margin sum: 200.452308513, margin sum / size: 0.00524716791039
+max positive margin: 0.135390949338, max negative margin: -0.157290478381
+avg margin: 0.0295901269886, avg pos margin: 0.0313024353121, avg neg margin: -0.027441859145
+
+testing evaluation
+correct: 3713, total: 6674, acc: 0.556338028169
+margin sum: 30.8337620409, margin sum / size: 0.00461998232557
+max positive margin: 0.130038401393, max negative margin: -0.123310366683
+avg margin: 0.0302229556983, avg pos margin: 0.0313145392366, avg neg margin: -0.0288541445946
+--------------------------
+
+Logistic Regression with LBGFS 1
+--------------------------
+training evaluation
+correct: 21580, total: 38202, acc: 0.564891890477
+margin sum: 495.773989918, margin sum / size: 0.0129776972388
+max positive margin: 0.288833909081, max negative margin: -0.28823073017
+avg margin: 0.0634206582284, avg pos margin: 0.0676221032336, avg neg margin: -0.0579660087752
+
+testing evaluation
+correct: 3694, total: 6674, acc: 0.553491159724
+margin sum: 69.7265587135, margin sum / size: 0.0104474915663
+max positive margin: 0.272262884357, max negative margin: -0.272336411338
+avg margin: 0.0644077328207, avg pos margin: 0.0676209755764, avg neg margin: -0.0604246057268
+--------------------------
+
+SVM 1
+--------------------------
+training evaluation
+correct: 21023, total: 38202, acc: 0.550311502016
+margin sum: 2309.20562533, margin sum / size: 0.0604472442627
+max positive margin: 1.74122989658, max negative margin: -2.01634467263
+avg margin: 0.374468273014, avg pos margin: 0.395153940708, avg neg margin: -0.349153947854
+
+testing evaluation
+correct: 3682, total: 6674, acc: 0.551693137549
+margin sum: 364.162248453, margin sum / size: 0.0545643165198
+max positive margin: 1.60914917567, max negative margin: -1.57974633403
+avg margin: 0.382084299266, avg pos margin: 0.395735043692, avg neg margin: -0.365285488778
+--------------------------
+
+Decision Tree 1
+--------------------------
+training evaluation
+correct: 20446, total: 38202, acc: 0.535207580755
+margin sum: 2690.0, margin sum / size: 0.0704151615099
+max positive margin: 1.0, max negative margin: -1.0
+avg margin: 1.0, avg pos margin: 1.0, avg neg margin: -1.0
+
+testing evaluation
+correct: 3504, total: 6674, acc: 0.525022475277
+margin sum: 334.0, margin sum / size: 0.0500449505544
+max positive margin: 1.0, max negative margin: -1.0
+avg margin: 1.0, avg pos margin: 1.0, avg neg margin: -1.0
+--------------------------
+
+Random Forests 1
+--------------------------
+training evaluation
+correct: 19436, total: 38202, acc: 0.508769174389
+margin sum: 670.0, margin sum / size: 0.0175383487776
+max positive margin: 1.0, max negative margin: -1.0
+avg margin: 1.0, avg pos margin: 1.0, avg neg margin: -1.0
+
+testing evaluation
+correct: 3383, total: 6674, acc: 0.50689241834
+margin sum: 92.0, margin sum / size: 0.0137848366797
+max positive margin: 1.0, max negative margin: -1.0
+avg margin: 1.0, avg pos margin: 1.0, avg neg margin: -1.0
+--------------------------
+
+Logistic Regression with SGD 2
+--------------------------
+training evaluation
+correct: 18176, total: 32649, acc: 0.556709240712
+margin sum: 172.553526538, margin sum / size: 0.00528510908567
+max positive margin: 0.133449054076, max negative margin: -0.156372350188
+avg margin: 0.0291397611972, avg pos margin: 0.0309181775381, avg neg margin: -0.0269063268427
+
+testing evaluation
+correct: 3195, total: 5709, acc: 0.559642669469
+margin sum: 26.5097371632, margin sum / size: 0.00464349924036
+max positive margin: 0.125558851513, max negative margin: -0.12065529025
+avg margin: 0.0294883519387, avg pos margin: 0.0304943252553, avg neg margin: -0.028209877497
+--------------------------
+
+Logistic Regression with LBGFS 2
+--------------------------
+training evaluation
+correct: 18994, total: 32649, acc: 0.581763606849
+margin sum: 685.619378294, margin sum / size: 0.0209997052986
+max positive margin: 0.489886698215, max negative margin: -0.383356041482
+avg margin: 0.077843004416, avg pos margin: 0.0849509221194, avg neg margin: -0.0679559455468
+
+testing evaluation
+correct: 3229, total: 5709, acc: 0.565598178315
+margin sum: 75.1348588968, margin sum / size: 0.0131607740229
+max positive margin: 0.475168200188, max negative margin: -0.486577961244
+avg margin: 0.0795646104447, avg pos margin: 0.0819710777216, avg neg margin: -0.0764313512363
+--------------------------
+
+SVM 2
+--------------------------
+training evaluation
+correct: 18003, total: 32649, acc: 0.551410456676
+margin sum: 1972.18373689, margin sum / size: 0.0604056398937
+max positive margin: 1.66619139034, max negative margin: -1.99408113646
+avg margin: 0.372528238686, avg pos margin: 0.392569521795, avg neg margin: -0.347893306294
+
+testing evaluation
+correct: 3161, total: 5709, acc: 0.553687160624
+margin sum: 313.413294428, margin sum / size: 0.0548981072742
+max positive margin: 1.6667882455, max negative margin: -1.61180710895
+avg margin: 0.377370873272, avg pos margin: 0.390354889266, avg neg margin: -0.361263151703
+--------------------------
+
+Decision Tree 2
+--------------------------
+training evaluation
+correct: 17518, total: 32649, acc: 0.536555484088
+margin sum: 2387.0, margin sum / size: 0.0731109681767
+max positive margin: 1.0, max negative margin: -1.0
+avg margin: 1.0, avg pos margin: 1.0, avg neg margin: -1.0
+
+testing evaluation
+correct: 3012, total: 5709, acc: 0.527588018917
+margin sum: 315.0, margin sum / size: 0.055176037835
+max positive margin: 1.0, max negative margin: -1.0
+avg margin: 1.0, avg pos margin: 1.0, avg neg margin: -1.0
+--------------------------
+
+Random Forests 2
+--------------------------
+training evaluation
+correct: 16592, total: 32649, acc: 0.50819320653
+margin sum: 535.0, margin sum / size: 0.0163864130601
+max positive margin: 1.0, max negative margin: -1.0
+avg margin: 1.0, avg pos margin: 1.0, avg neg margin: -1.0
+
+testing evaluation
+correct: 2880, total: 5709, acc: 0.504466631634
+margin sum: 51.0, margin sum / size: 0.00893326326852
+max positive margin: 1.0, max negative margin: -1.0
+avg margin: 1.0, avg pos margin: 1.0, avg neg margin: -1.0
+--------------------------
+
